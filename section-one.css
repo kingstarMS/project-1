@@ -1,0 +1,148 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px auto;
+    gap: 8rem;
+}
+
+.container-section-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container-section-one-top-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-section-one-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-section-one-content .hero-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.container-section-one-content .hero-image {
+    width: 50%;
+
+}
+
+.container-section-one-content .hero-image img {
+    width: 600px;
+    height: 450px;
+}
+
+.container-section-one-explore {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-section-one-explore-child {
+    display: flex;
+    gap: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+}
+
+.container-section-one-explore-child .container-section-one-explore-box {
+    padding: 1rem 0.5rem;
+    gap: 10px;
+}
+
+#signup-button-css {
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    background-color: #FA7436;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+#login-button-css {
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    color: #FA7436;
+    border: none;
+    font-weight: 600;
+    background: white;
+
+}
+
+#explore-button-css {
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    background-color: #FA7436;
+    color: white;
+    border: none;
+    font-weight: 600;
+
+}
+
+.singup {
+    grid-column: 10/11;
+
+}
+
+.hero-description {
+    grid-column: 4/7;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+
+.hero-image {
+    grid-column: 7/12;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.nav-list {
+    list-style: none;
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button {
+    margin-top: 20px;
+    padding: 10px;
+    color: orange;
+    background-color: white;
+    border: 1px orange solid;
+    border-radius: 5px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+}

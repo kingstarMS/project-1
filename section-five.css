@@ -1,0 +1,25 @@
+
+.container-section-five {
+    display: flex;
+}
+
+.container-section-five-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.container-section-five-child-right-left-arrow{
+    display: flex;
+    gap: 1.5rem;
+
+}
+.container-section-five-right {
+    width: 50%;
+
+}
+.container-section-five-contant{
+ display: flex;
+ flex-direction:column;
+
+}

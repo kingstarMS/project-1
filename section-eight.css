@@ -1,0 +1,7 @@
+.container-section-eight {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    background-color: #fbfbfb;
+    border-radius: 15px;
+}
